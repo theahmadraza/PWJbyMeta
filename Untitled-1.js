@@ -24,3 +24,5 @@ var drone = {
 for(var i = 0; i < arrOfKeys.length; i++){
     console.log(drone[arrOfKeys[i]])
 }
+
+// ////////////////// Array Are Objects
