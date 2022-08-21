@@ -25,4 +25,27 @@ for(var i = 0; i < arrOfKeys.length; i++){
     console.log(drone[arrOfKeys[i]])
 }
 
-// ////////////////// Array Are Objects
+// ////////////////// Array Are Objects ///////////
+
+var fruits = []
+fruits.push("Orange")
+fruits.push("Mango")
+fruits.push("Banana")
+console.log(fruits)
+
+fruits.pop()
+
+console.log(fruits)
+
+
+function arrBuilder(one, two, three){
+    var arrFruits = []
+    arrFruits.push(one)
+    arrFruits.push(two)
+    arrFruits.push(three)
+
+    return arrFruits
+}
+
+var callArr = arrBuilder("Pineapple", "Apple", "Grapes")
+console.log(callArr)
